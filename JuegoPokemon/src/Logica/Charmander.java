@@ -1,20 +1,22 @@
 package Logica;
 
-public class Charmander implements IFuego {
+public class Charmander extends Pokemon {
 
     @Override
-    public void atacarPunioFuego() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    protected void atacarPlacaje() {
+        System.out.println("Ataque PLACAJE de Charmander");      
     }
 
     @Override
-    public void atacarAscuas() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    protected void atacarAraniazo() {
+        System.out.println("Ataque ARANIAZO de Charmander");  
     }
 
     @Override
-    public void atacarLanzaLlamas() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    protected void atacarMordisco() {
+        System.out.println("Ataque MORDISCO de Charmander");  
     }
+
+
     
 }

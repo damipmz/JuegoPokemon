@@ -1,26 +1,23 @@
 package Logica;
 
 
-public class Squirtle implements IAgua {
+public class Squirtle extends Pokemon {
 
     @Override
-    public void atacarHidrobomba() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    protected void atacarPlacaje() {
+        System.out.println("Ataque PLACAJE de Squirtle"); 
     }
 
     @Override
-    public void atacarPistolaAgua() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    protected void atacarAraniazo() {
+        System.out.println("Ataque ARANIAZO de Squirtle"); 
     }
 
     @Override
-    public void atacarBurbuja() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    protected void atacarMordisco() {
+        System.out.println("Ataque MORDISCO de Squirtle"); 
     }
 
-    @Override
-    public void atacarHidropulso() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+    
     
 }
