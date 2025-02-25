@@ -5,6 +5,7 @@ package Logica;
 public abstract class Pokemon {
     
     //PROTECTED Para que solo las clases hijas tengan acceso
+    //Atributos
     protected int numPokedex;
     protected String nombrePokemon;
     protected double pesoPokemon;
